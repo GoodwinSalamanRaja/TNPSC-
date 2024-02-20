@@ -24,7 +24,7 @@
         </div>
       </div>
     </section>
-    <section class="aos-init aos-animate" data-aos="fade-up" style="margin-top: 90px;background-color: rgb(249,249,249);">
+    <section class="aos-init aos-animate" data-aos="fade-up" style="background-color: rgb(249,249,249);">
       <div class="q-mt-xl q-pt-xl">
         <hr class="bg-warning no-border hr">
         <h1 class="text-center aos-init aos-animate no-margin" data-aos="fade-up"
