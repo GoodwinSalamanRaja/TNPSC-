@@ -1,7 +1,7 @@
 <template>
   <q-page class="flex flex-center">
     <section class="q-pa-xl div1">
-      <div class="row flex justify-center" style="column-gap: 90px;overflow: hidden;">
+      <div class="row flex justify-center" style="column-gap: 90px;overflow: hidden;padding-bottom: 60px;">
         <div class="col-12 q-pb-xl col-lg-6 aos-init aos-animate text-white" data-aos="fade-up">
           <h2 class="homeh"><b>Tnpsc Coaching center in Madurai</b></h2>
           <p style="font-weight: 500;font-size: large;">Tnpsc Coaching Center in Madurai, Tamil Nadu Public Service Commission has had a
