@@ -32,11 +32,11 @@
         <div class="container aos-init aos-animate" data-aos="fade-up">
           <div>
             <hr class="bg-warning no-border hr">
-            <h1 class="text-center text-white aos-init aos-animate no-margin" data-aos="fade-up"
-              style="font-weight: bolder;font-size: 6vw;line-height: 7vw;">Contact Us</h1>
+            <h1 class="text-center text-white aos-init aos-animate no-margin footh" data-aos="fade-up"
+              style="font-weight: bolder;line-height: 7vw;">Contact Us</h1>
           </div>
-          <hr class="q-mt-xl no-border" style="height: 2px;background-color: rgb(162, 162, 162);">
-          <div class="row q-mt-xl text-white q-pt-xl q-pb-xl q-gutter-md aos-init aos-animate" data-aos="fade-up">
+          <hr class="q-mt-lg no-border" style="height: 2px;background-color: rgb(162, 162, 162);">
+          <div class="row text-white q-pt-lg q-pb-xl q-gutter-md aos-init aos-animate" data-aos="fade-up">
             <div class="col-12 col-md q-mt-lg flex items-center aos-init aos-animate" data-aos="fade-up">
               <img src="https://examsdaily.in/wp-content/uploads/2020/12/examsdaily-new-png-png.png" height="90"
                 width="360" class="footimg">
@@ -46,7 +46,7 @@
             </div>
             <div class="col-12 col-md q-mt-lg flex column items-center aos-init aos-animate footmenu" data-aos="fade-up">
               <div>
-                <h3><b>Menu</b></h3>
+                <h4 class="footsh"><b>Menu</b></h4>
                 <div class="q-mt-lg" style="line-height: 30px;font-weight: bold;">
                   <a href="#" class="foot">Home</a><br>
                   <a href="#" class="foot">About Us</a><br>
@@ -57,7 +57,7 @@
               </div>
             </div>
             <div class="col-12 col-md q-mt-lg aos-init aos-animate" data-aos="fade-up">
-              <h3><b>Support</b></h3>
+              <h4 class="footsh"><b>Support</b></h4>
               <div class="q-mt-lg" style="line-height: 30px;font-weight: bold;">
                 <a href="#" class="foot">Telecommunication</a><br>
                 <a href="#" class="foot">Programming</a><br>
@@ -67,10 +67,10 @@
               </div>
             </div>
             <div class="col-12 col-md q-mt-lg aos-init aos-animate" data-aos="fade-up" style="font-weight: 500;">
-              <h3><b>Contact</b></h3>
+              <h4 class="footsh"><b>Contact</b></h4>
               <div class="flex q-gutter-sm no-wrap">
                 <img src="https://themewagon.github.io/course/images/placeholder.svg" height="25px" width="25px">
-                <span style="word-spacing: 1px;text-wrap: nowrap;">Annai theresa Street, Kalavasal, Madurai-16.</span>
+                <span style="word-spacing: 1px;">Annai theresa Street, Kalavasal, Madurai-16.</span>
               </div>
               <div class="flex q-gutter-sm q-mt-md">
                 <img src="https://themewagon.github.io/course/images/smartphone.svg" height="25px" width="25px">
@@ -83,7 +83,7 @@
               </a>
             </div>
           </div>
-          <hr class="q-mt-xl no-border" style="height: 1px; background-color:  rgb(162, 162, 162);">
+          <hr class="q-mt-md no-border" style="height: 2px; background-color:  rgb(162, 162, 162);">
           <div class="row">
             <div class="col col-12 col-sm-7 text-white q-mt-lg">
               <p style="font-weight: bold;font-size: medium;word-spacing: 2px;">Copyright ©2024 All rights reserved | This
@@ -108,7 +108,7 @@
           </div>
         </div>
       </footer>
-      <q-drawer v-model="rightDrawerOpen" side="right" bordered>
+      <q-drawer v-model="rightDrawerOpen" side="right" class="bg-indigo-4" style="color: white;font-weight: bold;">
         <q-list>
           <q-item-label header>
             <q-input v-model="search" filled type="search" label="Search..">
@@ -134,27 +134,19 @@ import 'aos/dist/aos.css';
 const linksList = [
   {
     title: 'Home',
-    caption: 'quasar.dev',
     icon: 'school',
-    link: 'https://quasar.dev'
   },
   {
     title: 'About Us',
-    caption: 'github.com/quasarframework',
     icon: 'code',
-    link: 'https://github.com/quasarframework'
   },
   {
     title: 'Limitations',
-    caption: 'chat.quasar.dev',
     icon: 'chat',
-    link: 'https://chat.quasar.dev'
   },
   {
     title: 'Contact Us',
-    caption: '@quasarframework',
     icon: 'record_voice_over',
-    link: 'https://twitter.quasar.dev'
   },
   // {
   //   title: 'Facebook',
@@ -223,15 +215,27 @@ export default defineComponent({
   text-decoration: underline;
 }
 
-@media screen and (max-width:1023px) {
+.footh {
+  font-size: 4vw;
+}
+
+@media screen and (max-width:1024px) {
   .footmenu {
     align-items: start;
+  }
+
+  .footh {
+    font-size: 6vw;
   }
 }
 
 @media screen and (max-width:600px) {
   .foottemplate {
     justify-content: flex-start;
+  }
+
+  .footsh {
+    font-size: 6vw;
   }
 }
 
@@ -242,6 +246,6 @@ export default defineComponent({
 }
 
 .hr {
-  width: 9vw;
+  width: 7vw;
   height: 0.5vw;
 }</style>

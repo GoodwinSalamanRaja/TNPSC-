@@ -1,15 +1,15 @@
 <template>
   <q-page class="flex flex-center">
     <section class="q-pa-xl div1">
-      <div class="row flex justify-center" style="column-gap: 90px;overflow: hidden;">
-        <div class="col-12 q-pb-xl col-lg-6 aos-init aos-animate text-white" data-aos="fade-up">
+      <div class="row flex justify-center" style="column-gap: 90px;overflow: hidden;padding-bottom: 60px;">
+        <div class="col-12 col-lg-6 aos-init aos-animate text-white" data-aos="fade-up">
           <h2 class="homeh"><b>Tnpsc Coaching center in Madurai</b></h2>
-          <p style="font-weight: 500;font-size: large;">Tnpsc Coaching Center in Madurai, Tamil Nadu Public Service Commission has had a
+          <p class="p">Tnpsc Coaching Center in Madurai, Tamil Nadu Public Service Commission has had a
             glorious past of 75 years.
             During 1923, the Lee Commission had recommended setting up of a Central Public Service Commission in India,
             but
             it did not give much thought to the need of establishing similar.</p>
-          <p style="font-weight: 500;font-size: large;">National Institute, the best <b>TNPSC Coaching Centre in Madurai</b> for all Group
+          <p class="p">National Institute, the best <b>TNPSC Coaching Centre in Madurai</b> for all Group
             exams is very glad to
             announce the aspirants that We National Institute is providing exclusive coaching for TNPSC bank Exam Group
             Exams with highly-skilled, efficient and experienced faculties. It’s a well-known fact that We National
@@ -24,11 +24,11 @@
         </div>
       </div>
     </section>
-    <section class="aos-init aos-animate" data-aos="fade-up" style="margin-top: 90px;background-color: rgb(249,249,249);">
-      <div class="q-mt-xl q-pt-xl">
+    <section class="aos-init aos-animate" data-aos="fade-up" style="background-color: rgb(249,249,249);">
+      <div class="q-mt-xl q-pt-md">
         <hr class="bg-warning no-border hr">
-        <h1 class="text-center aos-init aos-animate no-margin" data-aos="fade-up"
-          style="font-weight: bolder;font-size: 6vw;line-height: 7vw;">About Us</h1>
+        <h1 class="text-center aos-init aos-animate no-margin footh" data-aos="fade-up"
+          style="font-weight: bolder;line-height: 7vw;">About Us</h1>
       </div>
       <div class="row q-pa-xl aos-init aos-animate" data-aos="fade-up">
         <div class="col col-12 col-lg aos-init aos-animate" data-aos="fade-right">
@@ -36,8 +36,8 @@
             src="https://st2.depositphotos.com/3822073/7657/i/450/depositphotos_76579133-stock-photo-high-angle-view-of-an.jpg"
             height="100%" width="100%">
         </div>
-        <div class="col col-12 col-lg q-pa-sm aos-init aos-animate" data-aos="fade-right"
-          style="font-size: large;display: flex;flex-direction: column; gap: 40px;">
+        <div class="col col-12 col-lg q-pa-sm aos-init aos-animate p" data-aos="fade-right"
+          style="display: flex;flex-direction: column; gap: 40px;">
           <div>
             <h2 class="abouth"><b>WHY CHOOSE EXAMSDAILY IN MADURAI <span style="color: rgb(242,4,85);">FOR TNPSC COACHING?</span></b></h2>
             <p style="font-weight: 500;">Tamil Nadu Public Service Commission exam is the name of the exam through which recruitments to government
@@ -58,7 +58,7 @@
         </div>
       </div>
     </section>
-    <div class="row text-white q-pa-md q-ma-sm aos-init aos-animate" data-aos="fade-up"
+    <div class="row text-white q-pa-md q-mx-xl aos-init aos-animate" data-aos="fade-up"
       style="gap: 20px;background-color: rgb(242,4,85);margin-top: 100px;border-radius: 30px;width: 100%;">
       <div class="col col-12 col-sm-6 col-lg">
         <div class="flex no-wrap" style="column-gap: 20px;">
@@ -109,7 +109,7 @@
         </div>
       </div>
     </div>
-    <section class="q-pa-md aos-init aos-animate div3" data-aos="fade-up" style="margin-top: 140px;">
+    <section class="q-pa-md aos-init aos-animate div3" data-aos="fade-up" style="margin-top: 80px;">
       <div class="row q-pa-sm aos-init aos-animate" data-aos="fade-up">
         <div class="col col-12 col-lg-6 text-warning flex justify-center items-center aos-init aos-animate"
           data-aos="fade-up">
@@ -130,7 +130,7 @@
             </ul>
           </div>
         </div>
-        <div class="col col-12 col-lg-6 text-warning q-pb-xl flex justify-center items-center aos-init aos-animate form"
+        <div class="col col-12 col-lg-6 text-warning flex justify-center items-center aos-init aos-animate form"
           data-aos="fade-up" style="height: 92vh;">
           <div class="aos-init aos-animate formpad" data-aos="fade-left" style="background-color: rgba(0,0,0,0.5);">
             <q-form @submit="onSubmit" @reset="onReset" class="q-gutter-md">
@@ -158,8 +158,8 @@
     <section class="q-mt-xl q-pa-xl" style="background-color: rgb(0,0,0);width: 100%;">
       <div class="q-mt-xl">
         <hr class="bg-warning no-border hr">
-        <h1 class="text-center aos-init aos-animate no-margin text-white" data-aos="fade-up"
-          style="font-weight: bolder;font-size: 6vw;line-height: 7vw;">Limitations</h1>
+        <h1 class="text-center aos-init aos-animate no-margin text-white footh" data-aos="fade-up"
+          style="font-weight: bolder;line-height: 7vw;">Limitations</h1>
       </div>
       <div class="row q-pb-xl text-white aos-init aos-animate limc" data-aos="fade-up">
         <div class="col-12 col-lg-7 aos-init aos-animate" data-aos="fade-right">
@@ -316,8 +316,8 @@ export default defineComponent({
 
 .div3 {
   background-image: url("../assets/aws.png");
-  height: 92vh;
   width: 100%;
+  height: 100%;
   background-size: cover;
   overflow: hidden;
 }
@@ -330,7 +330,7 @@ export default defineComponent({
   line-height: 7vw;
 }
 .limp{
-  font-size: 1.2vw;
+  font-size: large;
 }
 .limc{
   margin-top: 60px;
@@ -349,24 +349,28 @@ export default defineComponent({
 /* .limcol :hover{
   background-color:  rgb(242,4,85);;
 } */
+.footh{
+  font-size: 4vw;
+}
+.p{
+  font-size: large;
+}
 @media screen and (max-width: 1072px) {
-  .div3 {
-    height: 100%;
-  }
 
   .formh {
     font-size: 5vw;
     line-height: 7vw;
   }
+  
 
-  .form {
+  /* .form {
     margin-top: 60px;
-  }
+  } */
   .limh{
     font-size: 5.8vw;
   }
   .limp{
-    font-size: 4.3vw;
+    font-size: medium;
   }
   .limc{
     margin-top: 40px;
@@ -379,6 +383,12 @@ export default defineComponent({
   font-size: 8.5vw;
   line-height: 10vw;
   }
+  .footh{
+  font-size: 6vw;
+}
+.p{
+  font-size: medium;
+}
 
 }
 
@@ -390,10 +400,13 @@ export default defineComponent({
   .formpad {
     padding: 40px;
   }
+  .div3 {
+    height: 122vh;
+  }
 }
 
 .hr {
-  width: 9vw;
+  width: 7vw;
   height: 0.5vw;
 }
 </style>
