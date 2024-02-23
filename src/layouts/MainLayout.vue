@@ -1,7 +1,7 @@
 <template>
   <div>
     <q-layout view="lHh lpr lFf">
-      <q-header elevated style="background-color: black;height: 70px;" class="flex glossy">
+      <q-header elevated style="height: 70px;" class="flex bg-grey-10">
         <q-toolbar>
           <!-- <q-btn flat round dense icon="menu" class="desktop-only" /> -->
           <q-avatar class="q-ml-md">
@@ -27,7 +27,7 @@
       <q-page-container>
         <RouterView />
       </q-page-container>
-      <footer style="margin-top: 100px;background-color: black;" id="footer" class="q-pa-xl glossy aos-init aos-animate"
+      <footer style="margin-top: 100px;" id="footer" class="q-pa-xl bg-grey-10 glossy aos-init aos-animate"
         data-aos="fade-up">
         <div class="container aos-init aos-animate" data-aos="fade-up">
           <div>
@@ -108,7 +108,7 @@
           </div>
         </div>
       </footer>
-      <q-drawer v-model="rightDrawerOpen" side="right" class="bg-indigo-4" style="color: white;font-weight: bold;">
+      <q-drawer v-model="rightDrawerOpen" side="right" class="bg-light-blue-2" style="color: black;font-weight: bold;">
         <q-list>
           <q-item-label header>
             <q-input v-model="search" filled type="search" label="Search..">

@@ -1,8 +1,8 @@
 <template>
   <q-page class="flex flex-center">
-    <section class="q-pa-xl div1">
+    <section class="q-pa-xl bg-light-blue-2 div1">
       <div class="row flex justify-center" style="column-gap: 90px;overflow: hidden;padding-bottom: 60px;">
-        <div class="col-12 col-lg-6 aos-init aos-animate text-white" data-aos="fade-up">
+        <div class="col-12 col-lg-6 q-pb-xl aos-init aos-animate" data-aos="fade-up">
           <h2 class="homeh"><b>Tnpsc Coaching center in Madurai</b></h2>
           <p class="p">Tnpsc Coaching Center in Madurai, Tamil Nadu Public Service Commission has had a
             glorious past of 75 years.
@@ -155,30 +155,30 @@
         </div>
       </div>
     </section>
-    <section class="q-mt-xl q-pa-xl" style="background-color: rgb(0,0,0);width: 100%;">
-      <div class="q-mt-xl">
+    <section class="q-mt-xl q-pa-xl bg-light-blue-2" style="width: 100%;">
+      <div class="q-mt-md">
         <hr class="bg-warning no-border hr">
-        <h1 class="text-center aos-init aos-animate no-margin text-white footh" data-aos="fade-up"
+        <h1 class="text-center aos-init aos-animate no-margin footh" data-aos="fade-up"
           style="font-weight: bolder;line-height: 7vw;">Limitations</h1>
       </div>
-      <div class="row q-pb-xl text-white aos-init aos-animate limc" data-aos="fade-up">
+      <div class="row q-pb-xl aos-init aos-animate limc" data-aos="fade-up">
         <div class="col-12 col-lg-7 aos-init aos-animate" data-aos="fade-right">
           <h1 class="limh"><b>Eligible Criteria For Tnpsc Exam</b></h1>
           <p class="limp">(Tamil Nadu Public Service Commission) formed in 1923 as the successor of Madras Service Commission as a constitutional body responsible for conducting various exams for recruitment for various posts in to Tamil Nadu government.</p>
           <div class="row q-mt-xl q-gutter-md" data-aos="fade-up">
-            <div class="col-12 col-lg-5 q-pa-md flex no-wrap rounded-borders limcol" style="column-gap: 20px;">
+            <div class="col-12 col-lg-5 q-pa-md flex no-wrap rounded-borders text-white limcol" style="column-gap: 20px;">
               <i class="bi bi-check-circle-fill" style="font-size: 40px;color: rgb(242,4,85);"></i>
               <p class="limp"><b>Tnpsc Group I age limit 21 to 37 Any Degree</b></p>
             </div>
-            <div class="col-12 col-lg-5 q-pa-md flex no-wrap rounded-borders" style="background-color: rgb(51,51,51);column-gap: 20px;">
+            <div class="col-12 col-lg-5 q-pa-md flex no-wrap text-white rounded-borders" style="background-color: rgb(51,51,51);column-gap: 20px;">
               <i class="bi bi-check-circle-fill" style="font-size: 40px;color: rgb(242,4,85);"></i>
               <p class="limp"><b>Tnpsc Group II No age limit Any Degree</b></p>
             </div>
-            <div class="col-12 col-lg-5 q-pa-md flex no-wrap rounded-borders" style="background-color: rgb(51,51,51);column-gap: 20px;">
+            <div class="col-12 col-lg-5 q-pa-md flex no-wrap text-white rounded-borders" style="background-color: rgb(51,51,51);column-gap: 20px;">
               <i class="bi bi-check-circle-fill" style="font-size: 40px;color: rgb(242,4,85);"></i>
               <p class="limp"><b>Tnpsc Group II A no age limit Any Degree</b></p>
             </div>
-            <div class="col-12 col-lg-5 q-pa-md flex no-wrap rounded-borders" style="background-color: rgb(51,51,51);column-gap: 20px;">
+            <div class="col-12 col-lg-5 q-pa-md flex no-wrap text-white rounded-borders" style="background-color: rgb(51,51,51);column-gap: 20px;">
               <i class="bi bi-check-circle-fill" style="font-size: 40px;color: rgb(242,4,85);"></i>
               <p class="limp"><b>Tnpsc group IV no age limit SSLC</b></p>
             </div>
@@ -305,7 +305,7 @@ export default defineComponent({
 }
 
 .div1 {
-  background-color: rgb(27, 27, 27);
+  /* background-color: rgb(27, 27, 27); */
 }
 
 /* .div2 :hover {
@@ -333,7 +333,7 @@ export default defineComponent({
   font-size: large;
 }
 .limc{
-  margin-top: 60px;
+  margin-top: 40px;
 }
 .abouth{
   font-size: 2.8vw;
