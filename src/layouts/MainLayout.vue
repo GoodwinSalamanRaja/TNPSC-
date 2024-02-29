@@ -1,7 +1,7 @@
 <template>
   <div>
     <q-layout view="lHh lpr lFf">
-      <q-header elevated style="height: 70px;background-color: rgb(0,0,0);color: white;" class="flex">
+      <q-header elevated style="height: 70px;color: white;" class="flex bg-dark">
         <q-toolbar>
           <!-- <q-btn flat round dense icon="menu" class="desktop-only" /> -->
           <q-avatar class="q-ml-md">
@@ -27,7 +27,7 @@
       <q-page-container>
         <RouterView />
       </q-page-container>
-      <footer style="margin-top: 100px;background-color: rgb(0,0,0);" id="footer" class="q-pa-xl aos-init aos-animate"
+      <footer style="margin-top: 100px;" id="footer" class="q-pa-xl bg-dark glossy aos-init aos-animate"
         data-aos="fade-up">
         <div class="container aos-init aos-animate" data-aos="fade-up">
           <div>
