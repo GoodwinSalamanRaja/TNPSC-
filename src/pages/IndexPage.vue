@@ -155,13 +155,13 @@
         </div>
       </div>
     </section>
-    <section class="q-mt-xl q-pa-xl bg-light-blue-2" style="width: 100%;">
+    <section class="q-mt-xl q-pa-xl" style="width: 100%;background-color: rgb(0,0,0);">
       <div class="q-mt-md">
         <hr class="bg-warning no-border hr">
-        <h1 class="text-center aos-init aos-animate no-margin footh" data-aos="fade-up"
+        <h1 class="text-center aos-init aos-animate no-margin text-white footh" data-aos="fade-up"
           style="font-weight: bolder;line-height: 7vw;">Limitations</h1>
       </div>
-      <div class="row q-pb-xl aos-init aos-animate limc" data-aos="fade-up">
+      <div class="row q-pb-xl aos-init aos-animate text-white limc" data-aos="fade-up">
         <div class="col-12 col-lg-7 aos-init aos-animate" data-aos="fade-right">
           <h1 class="limh"><b>Eligible Criteria For Tnpsc Exam</b></h1>
           <p class="limp">(Tamil Nadu Public Service Commission) formed in 1923 as the successor of Madras Service Commission as a constitutional body responsible for conducting various exams for recruitment for various posts in to Tamil Nadu government.</p>
