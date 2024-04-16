@@ -1,3 +1,7 @@
+Description:
+     1)My first project in Quasar after finishing VueJS
+
+
 # Quasar App (myquasarproject-1)
 
 A Quasar Project
